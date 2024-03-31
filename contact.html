@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" type="x-icon" href="https://static-00.iconduck.com/assets.00/brand-cthulhu-icon-2048x2048-3cwyzrnk.png">
+    <style>
+        .topbar {
+            background-color: #696767;
+            position: fixed;
+            width: 100vw;
+            color: white;
+            font-size: 24px;
+            height: 2rem;
+            text-align: center;
+            padding-top : 15px;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+        .topbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .topbar li{
+            display: inline;
+        }
+        .topbar a {
+            padding: 25px;
+            color: white;
+        }
+        .conMe {
+            display: block;
+            padding: 0.7rem;
+            padding-top: 7rem;
+            text-align: center;
+        }
+        .conForm {
+            background-color: white;
+            width: 40vw;
+            padding: 2rem;
+            margin: 0 auto;
+            border: black solid 1px;
+        }
+        .conForm input {
+            width: 40vw;
+            height: 2rem;
+            font-size: 20px;
+            display: block;
+            border-style: none;
+            padding-bottom: 5px;
+            margin-bottom: 32px;
+            border-bottom: #9b9898 solid 1px;
+        }
+        .subBtn {
+            background-color: #696767;
+            color: white;
+            padding: 1rem;
+            font-size: 20px;
+            border-radius: 15px;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body style="margin: 0; background-color: rgb(147, 142, 142);">
+    <div class="topbar">
+        <ul>
+            <li><a href="homepage.html">BOOKS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div> 
+    <div class="conMe">
+        <h2>Wanna know more about Lovecraft's top books? Contact me!</h2>
+    </div>
+    <form action="" class="conForm">
+        <input type="text" name="Fullname" id="fullname" placeholder="Full Name">
+        <input type="email" name="Email" id="email" placeholder="Email">
+        <input type="number" name="Number" id="conNumber" placeholder="Contact Number">
+        <div style="text-align: center;">
+            <button type="submit" class="subBtn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
